@@ -38,7 +38,7 @@ const MakePhotoScreen = () => {
     useEffect(async () => {
         setStartCamera(false)
         try {
-            await FileSystem.deleteAsync("file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540serhio15210%252Fexpo-camera-app/Camera", {idempotent: true})
+            await FileSystem.deleteAsync("file:///data/user/0/host.exp.exponent/cache/ExperienceData/%25409karat%252Fexpo-camera-app/Camera", {idempotent: true})
             console.log('deleted!')
         }catch (err){
             console.log(err)
